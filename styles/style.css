@@ -64,7 +64,8 @@ ol {
 .content__details {
   display: flex;
   flex-direction: column;
-  gap: 22px;
+  gap: 26px;
+  min-width: 399px;
 }
 
 .result__video-container {
@@ -81,7 +82,7 @@ ol {
 }
 
 .content__list-item:not(:last-child) {
-  margin-bottom: 30px;
+  margin-bottom: 34px;
 }
 
 .content__video-card {
